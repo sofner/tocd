@@ -1,0 +1,4 @@
+- hosts: localhost
+  tasks:
+    - name: cloning 
+      git: repo=https://github.com/sofner/spring-petclinic.git  dest=.
